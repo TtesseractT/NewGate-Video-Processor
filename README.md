@@ -12,7 +12,6 @@ Thanks to Jumpcutter for the algo!
   - [TOOLS](#tools)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Docker Setup](#docker-setup)
   - [License](#license)
 
 ## Prerequisites
@@ -75,22 +74,6 @@ pip install -r requirements.txt
 ```bash	
 python Gate-Engine.py --input_file INPUT_FILE 
 ```
-
-## Docker Setup - Coming Soon
-
-1. Build the Docker image:
-
-```bash
-docker build -t gated-video-editor . # Coming Soon
-```
-
-2. Run the Docker container:
-
-```bash
-docker run -it --rm -v /path/to/your/video/files:/app gated-video-editor # Coming Soon
-```
-
-3. Replace `/path/to/your/video/file`s with the path to the directory containing your video files. This will mount the directory inside the container. # Coming Soon
 
 ## License
 
