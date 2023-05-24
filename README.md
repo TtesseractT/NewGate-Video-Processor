@@ -27,7 +27,7 @@ Thanks to Jumpcutter for the algo!
 ## Quick install
 
 ```bash
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## TOOLS
