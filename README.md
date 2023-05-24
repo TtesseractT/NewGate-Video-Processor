@@ -2,6 +2,11 @@
 
 Thanks to Jumpcutter for the algo! 
 
+# Demo
+
+[Watch The Demo Here](https://www.youtube.com/watch?v=SHR-C7kSif4&ab_channel=TesseractFoley)
+
+
 ## Table of Contents
 
 - [Gated Video Editor](#gated-video-editor)
