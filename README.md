@@ -32,8 +32,7 @@ pip3 install -r requirements.txt
 | Argument | Description |
 | --- | --- |
 | --input_file | The file you want to process as input. |
-| --sounded_speed, default=999999 | The speed at which frames with sound should be played. Typically set to 1 (normal speed). |
-| --frame_margin, default=1 | This variable determines the number of silent frames included on either side of sounded frames to provide context. It specifies how many frames adjacent to speech should be included. |
+| --frame_margin | default=1 This variable determines the number of silent frames included on either side of sounded frames to provide context. It specifies how many frames adjacent to speech should be included. |
 
 ## Installation
 
