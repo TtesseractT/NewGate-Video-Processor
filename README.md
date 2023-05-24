@@ -19,9 +19,10 @@ Thanks to Jumpcutter for the algo!
 - Python 3.6+
 - FFmpeg
 
-## Quick install - Coming Soon
+## Quick install
 
-```pip3 install -r requirements.txt
+```bash
+pip3 install -r requirements.txt
 ```
 
 ## TOOLS
