@@ -21,15 +21,8 @@ Thanks to Jumpcutter for the algo!
 
 ## Quick install - Coming Soon
 
-```bash
-./Setup-Gate-Engine.py # Coming Soon
+```pip3 install -r requirements.txt
 ```
-
-This will run all requirements for you.
-
-## Standalone
-
-You can use the script `Gated-Engine.py` as a seperate argument
 
 ## TOOLS
 
@@ -37,15 +30,9 @@ You can use the script `Gated-Engine.py` as a seperate argument
 
 | Argument | Description |
 | --- | --- |
-| `--input_file` | Input File you want to process. |
-| `--output_file` | the output file. (optional. if not included, it'll just modify the input file name). |
-| `--silent_threshold`, `default=0.03` | The volume amount that frames' audio needs to surpass to be consider \"sounded\". It ranges from 0 (silence) to 1 (max volume). |
-| `--sounded_speed`, `default=999999` | The speed that sounded (spoken) frames should be played at. Typically 1. |
-| `--silent_speed`, `default=5.00` | The speed that silent frames should be played at. 999999 for jumpcutting. |
-| `--frame_margin`, `default=1` | Some silent frames adjacent to sounded frames are included to provide context. How many frames on either the side of speech should be included? That's this variable. |
-| `--sample_rate`, `default=44100` | Sample rate of the input and output videos. |
-| `--frame_rate`, `default=30` | Frame rate of the input and output videos. optional... I try to find it out myself, but it doesn't always work. |
-| `--frame_quality`, `default=1` | Quality of frames to be extracted from input video. 1 is highest, 31 is lowest, 3 is the default. |
+| --input_file | The file you want to process as input. |
+| --sounded_speed, default=999999 | The speed at which frames with sound should be played. Typically set to 1 (normal speed). |
+| --frame_margin, default=1 | This variable determines the number of silent frames included on either side of sounded frames to provide context. It specifies how many frames adjacent to speech should be included. |
 
 ## Installation
 
