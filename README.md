@@ -64,7 +64,7 @@ pip install -r requirements.txt
 1. Alternatively, you can use the Gate-Engine.py script with command line arguments. See below for a list of arguments:
 
 ```bash	
-python Gate-Engine.py --input_file "Video File"
+python gate_engine.py --input_file "Video File"
 ```
 
 ## License
